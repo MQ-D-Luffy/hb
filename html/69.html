@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>love</title>
+	<meta charset="utf-8">
+	<!-- <link rel="stylesheet" href="../css/style.css"> -->
+	<style type="text/css">
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+p{
+	font-size: 100px;
+	color: white;
+}
+
+.bor{
+	margin: auto 0;
+	padding:auto 0;
+	/* border: 10px solid red; */
+	margin-top: 35%;
+	padding-left: 25%;
+}
+
+/* @keyframes ly-stxt01_move{
+	0% {opacity:0;}
+	8% {opacity:1;}
+	90% {opacity:1;}
+	98% {opacity:0;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes ly-stxt01_move{
+	0% {opacity:0;}
+	8% {opacity:0;}
+	90% {opacity:1;}
+	98% {opacity:0;}
+	100% {opacity:1;}
+} */
+
+.ly-box01 {
+	width:100%;
+	height:100%;
+	background-color:black;
+	border-radius: 25px;
+	position: absolute;
+	left: 48%;
+	bottom: 50%;
+	margin-bottom:50%;
+	margin: auto 0 ;
+	padding: auto 0;
+	overflow: hidden;
+	transform-origin:center bottom;
+	animation:box_to_point 30.5s 0s;
+}
+@keyframes box_to_point{
+	0% {
+		margin-bottom:0;
+		width: 100%;
+		height: 550px;
+		border-radius: 6px;
+		background-color:black;
+		position: absolute;
+		left: 0%;
+		bottom: 38%;
+	}
+	100% {
+		margin-bottom:0;
+		width: 100%;
+		height: 550px;
+		border-radius: 6px;
+		background-color:black;
+		position: absolute;
+		left: 0%;
+		bottom: 38%;
+	}
+	
+}
+@-webkit-keyframes box_to_point{
+	
+	0% {
+		margin-bottom:0;
+		width: 80%;
+		height: 550px;
+		border-radius: 6px;
+		background-color:rgba(255,255,255,0.6);
+		position: absolute;
+		left: 10%;
+		bottom: 12%;
+	}
+	100% {
+		margin-bottom:0;
+		width:50px;
+		height:50px;
+		border-radius: 25px;
+		background-color:rgba(255,255,255,1);
+		position: absolute;
+		left: 48%;
+		bottom: 50%;
+	}
+}
+
+
+.ly-txt01 {
+	position:absolute;
+	/* width: 40%; */
+	/* left:10%; */
+	top:5%;
+}
+.ly-stxt01 {
+	font-family: Microsoft YaHei;
+	font-size:20px;
+	font-color: #000;
+	position: relative;
+	left: 5%;
+	top: 5%;
+	opacity: 0;
+	animation:ly-stxt01_move 15s;
+	animation-delay:3s;
+	-webkit-animation:ly-stxt01_move 15s;
+	-webkit-animation-delay:3s;
+	animation-fill-mode: forwards;
+}
+@keyframes ly-stxt01_move{
+	0% {opacity:0;}
+	8% {opacity:1;}
+	90% {opacity:1;}
+	98% {opacity:0;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes ly-stxt01_move{
+	0% {opacity:0;}
+	8% {opacity:0;}
+	90% {opacity:1;}
+	98% {opacity:0;}
+	100% {opacity:1;}
+}
+
+.ly-stxt02 {
+	font-family: Microsoft YaHei;
+	font-size:20px;
+	font-color: #000;
+	position: relative;
+	left: 5%;
+	top: 5%;
+	margin-top:-71px;
+	opacity: 0;
+	animation:ly-stxt02_move 15s;
+	animation-delay:3s;
+	-webkit-animation:ly-stxt02_move 15s;
+	-webkit-animation-delay:3s;
+	animation-fill-mode: forwards;
+}
+@keyframes ly-stxt02_move{
+	0% {opacity:0;margin-top:-71px;}
+	8% {opacity:0;margin-top:-71px;}
+	16% {opacity:1;margin-top:0;}
+	90% {opacity:1;margin-top:0;}
+	100% {opacity:1;margin-top:0;}
+}
+@-webkit-keyframes ly-stxt02_move{
+	0% {opacity:0;margin-top:-71px;}
+	8% {opacity:0;margin-top:-71px;}
+	16% {opacity:1;margin-top:0;}
+	90% {opacity:1;margin-top:0;}
+	100% {opacity:1;margin-top:0;}
+}
+
+.ly-stxt03 {
+	font-family: Microsoft YaHei;
+	font-size:20px;
+	font-color: #000;
+	position: relative;
+	left: 5%;
+	top: 5%;
+	opacity: 0;
+	margin-top:-71px;
+	animation:ly-stxt03_move 15s;
+	animation-delay:3s;
+	-webkit-animation:ly-stxt03_move 15s;
+	-webkit-animation-delay:3s;
+	animation-fill-mode: forwards;
+}
+@keyframes ly-stxt03_move{
+	0% {opacity:0;margin-top:-71px;}
+	16% {opacity:0;margin-top:-71px;}
+	24% {opacity:1;margin-top:0;}
+	90% {opacity:1;margin-top:0;}
+	100% {opacity:1;margin-top:0;}
+}
+@-webkit-keyframes ly-stxt03_move{
+	0% {opacity:0;margin-top:-71px;}
+	16% {opacity:0;margin-top:-71px;}
+	24% {opacity:1;margin-top:0;}
+	90% {opacity:1;margin-top:0;}
+	100% {opacity:0;margin-top:0;}
+}
+
+.ly-stxt04 {
+	font-family: Microsoft YaHei;
+	font-size:20px;
+	font-color: #000;
+	position: relative;
+	left: 5%;
+	top: 5%;
+	opacity: 0;
+	margin-top:-71px;
+	animation:ly-stxt04_move 15s;
+	animation-delay:3s;
+	-webkit-animation:ly-stxt04_move 15s;
+	-webkit-animation-delay:3s;
+	animation-fill-mode: forwards;
+}
+@keyframes ly-stxt04_move{
+	0% {opacity:0;margin-top:-71px;}
+	24% {opacity:0;margin-top:-71px;}
+	32% {opacity:1;margin-top:0;}
+	90% {opacity:1;margin-top:0;}
+	100% {opacity:1;margin-top:0;}
+}
+@-webkit-keyframes ly-stxt04_move{
+	0% {opacity:0;margin-top:-71px;}
+	24% {opacity:0;margin-top:-71px;}
+	32% {opacity:1;margin-top:0;}
+	90% {opacity:1;margin-top:0;}
+	100% {opacity:1;margin-top:0;}
+}
+
+.ly-stxt05 {
+	font-family: Microsoft YaHei;
+	font-size:20px;
+	font-color: #000;
+	position: relative;
+	left: 5%;
+	top: 5%;
+	opacity: 0;
+	margin-top:-71px;
+	animation:ly-stxt05_move 15s;
+	animation-delay:3s;
+	-webkit-animation:ly-stxt05_move 15s;
+	-webkit-animation-delay:3s;
+	animation-fill-mode: forwards;
+}
+@keyframes ly-stxt05_move{
+	0% {opacity:0;margin-top:-71px;}
+	32% {opacity:0;margin-top:-71px;}
+	40% {opacity:1;margin-top:0;}
+	90% {opacity:1;margin-top:0;}
+	100% {opacity:1;margin-top:0;}
+}
+@-webkit-keyframes ly-stxt05_move{
+	0% {opacity:0;margin-top:-71px;}
+	32% {opacity:0;margin-top:-71px;}
+	40% {opacity:1;margin-top:0;}
+	90% {opacity:1;margin-top:0;}
+	100% {opacity:1;margin-top:0;}
+}
+#content{
+	color: red;
+	font-size: 30px;
+	margin: auto 0 ;
+	padding: auto;
+	text-align: center;
+	/* display: none; */
+	/* padding-left: 0%; */
+}
+</style>
+</head>
+<body bgcolor="black" >
+		<div class="ly-txt01">
+			<p class="ly-stxt01">迎来开学的第一天，我们，相聚一起</p>
+			<p class="ly-stxt02">一个学期准备过去了，请记住，分开是为了下一次的再会</p>
+			<p class="ly-stxt03">在炎热夏天也抵不住我们这份热情！今天大家相约莲花戴家新村，相聚是缘、相处是情、有同事相伴，我们的生命更加完整。</p>
+			<p class="ly-stxt04">相遇，是一个多么动人的名词。于这茫茫人海中，于这网海茫茫中，每天有多少的相遇擦肩而过，每天又有多少的匆匆擦肩而过。</p>
+			<p class="ly-stxt05">缘分只是提供一个认识的平台，走在一起靠缘分是不可能的，还需要自己的努力，“缘”是聚在一起，“分”是分开<br>至于怎么把握，要靠自己了，命运由我，不看上天的安排！</p>
+		</div>
+	<div class="bor">
+		<div id="content">
+			99669999996669999996699666699666999966699666699<br>
+			99699999999699999999699666699669966996699666699<br>
+			99669999999999999996699666699699666699699666699<br>
+			99666699999999999966666999966699666699699666699<br>
+			99666666999999996666666699966699666699699666699<br>
+			99666666669999666666666699666669966996699666699<br>
+			99666666666996666666666699666666999966669999996<br>
+		</div>	
+	</div>
+	<script>
+		setTimeout(function(){
+		 var content = document.getElementById("content");
+		 content.style.display="inline";
+		 console.log(content.display);
+         var contents = content.innerHTML;
+         var button = document.getElementById("button");
+		 var num = 1;
+			if(num==1){
+			var value = "9";
+			var value1 = "6";
+            var values = contents.split(value);
+            content.innerHTML = values.join('<span style="background:red;">' + value + '</span>');
+			}
+		},65000);
+	</script>
+</body>
+
+</html>
